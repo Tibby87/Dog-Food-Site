@@ -64,10 +64,14 @@ text-shadow: 2px 2px black;
 
 #form-section {
   background-color: #ffc85c;
+  color: #EAF6F6;
+  display: grid;
+  place-items: center;
   margin: 0;
   padding: 3rem 0 3rem 0;
   text-align: center;
-  color: #EAF6F6;
+  
+  
   
   
 
