@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <!-- Title Icon -->
+  <title>Order</title>
+  <link rel="icon" href="images/sip_food02.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+  <!-- bootstrapcdn css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="styles/order.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Hero section -->
+  <section id="main-section">
+    <div class="container-fluid">
+
+    </div>
+    <a class="navbar-brand" href="index.html"> <img id="logo-image" src="images/sip_food02.png" alt="company logo"> <br>
+      <h5 class="home-link-text">Back to main page</h4>
+    </a>
+    <div class="intro-text">
+      <h1 class="fancy-font">
+        Choose from our range!
+      </h1>
+      <h3 class="additional-text">
+        We currently have these varieties available <br>
+        We are constantly getting new stock, based on customer requests
+      </h3>
+    </div>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section id="order" class="products">
+    <h2>Our current range</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card ">
+          <img class="card-img-top" src="order-images/fish.jpg" alt="product-image">
+          <div class="card-body">
+            <h4 class="card-title">Fish</h4>
+            <select id="dropdown" name="texture" class="form-control" required>
+              <option disabled selected value>What size dog do you have?</option>
+              <option value="Junior">Junior <span></span></option>
+              <option value="Small">Small to Medium Adult</option>
+              <option value="Large">Large Adult</option>
+            </select>
+            <label id="number-label" for="weight">Amount of food <span class="clue">(in kg)</span></label>
+            <input type="number" name="weight" id="number" min="1" max="50" class="form-control"
+              placeholder="How much do you need?" required />
+              <a href="#" class="btn btn-lg btn-block btn-dark">Order</a>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card ">
+          <img class="card-img-top" src="order-images/chicken.jpg" alt="product-image">
+          <div class="card-body">
+            <h4 class="card-title">Chicken</h4>
+            <select id="dropdown" name="texture" class="form-control" required>
+              <option disabled selected value>What size dog do you have?</option>
+              <option value="Junior">Junior <span></span></option>
+              <option value="Small">Small to Medium Adult</option>
+              <option value="Large">Large Adult</option>
+            </select>
+            <label id="number-label" for="weight">Amount of food <span class="clue">(in kg)</span></label>
+            <input type="number" name="weight" id="number" min="1" max="50" class="form-control"
+              placeholder="How much do you need?" required />
+              <a href="#" class="btn btn-lg btn-block btn-dark">Order</a>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card ">
+          <img class="card-img-top" src="order-images/vegan.jpg" alt="product-image">
+          <div class="card-body">
+            <h4 class="card-title">Vegan</h4>
+            <select id="dropdown" name="texture" class="form-control" required>
+              <option disabled selected value>What size dog do you have?</option>
+              <option value="Junior">Junior <span></span></option>
+              <option value="Small">Small to Medium Adult</option>
+              <option value="Large">Large Adult</option>
+            </select>
+            <label id="number-label" for="weight">Amount of food <span class="clue">(in kg)</span></label>
+            <input type="number" name="weight" id="number" min="1" max="50" class="form-control"
+              placeholder="How much do you need?" required />
+              <a href="#" class="btn btn-lg btn-block btn-dark">Order</a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="colored-section" id="footer">
+    <div class="container-fluid">
+      <a class="contact-link" href="contact.html"><i class="fas fa-phone footer-i"></i></a>
+      <a class="contact-link" href="contact.html"><i class="fab fa-facebook-f footer-i"></i></a>
+      <a class="contact-link" href="contact.html"><i class="fab fa-instagram footer-i"></i></a>
+      <a class="contact-link" href="contact.html"><i class="fas fa-envelope footer-i"></i></a>
+      <p class="footer-p"> Copyright © <script>document.write(new Date().getFullYear())</script>  Sip Food</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

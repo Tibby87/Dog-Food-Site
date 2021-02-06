@@ -1,0 +1,163 @@
+/* general styles */
+
+  html, body {
+  background-color: white;
+  max-width: 100%;
+  margin: 0;
+
+}
+@font-face {
+    font-family: Neigfriste;
+    src: url("Neigfriste_400.otf") format("opentype");
+  }
+
+  p {
+    font-weight: 500;
+    color: #404040;
+  }
+
+/* top section */
+#main-section {
+  background-color: #59886b;
+  border-radius: 1rem 1rem 0 0;
+    padding: 2rem 1rem 3rem 1rem;
+}
+
+#logo-image {
+  height: 6rem;
+  width: auto;
+  margin: 0 0 0.7rem 1.5rem;
+}
+.home-link-text {
+  font-family: 'Nerko One', cursive;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.intro-text {
+  text-align: center;
+  line-height: 2rem;
+  padding: 2rem;
+text-shadow: 2px 2px black;
+  width: 75%;
+  margin: auto;
+}
+
+.fancy-font {
+  font-family: Neigfriste;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #EAF6F6;
+}
+  .additional-text {
+    font-family: 'Nerko One', cursive;
+    color: #fff8c1;
+    text-shadow: 2px 2px black;
+
+}
+/* Contact Form */
+.dog-phone {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  margin: 1rem 0 1rem 0;
+}
+
+#form-section {
+  background-color: #ffc85c;
+  margin: 0;
+  padding: 3rem 0 3rem 0;
+  text-align: center;
+  color: #EAF6F6;
+  
+  
+
+
+}
+
+.contact-us{
+  font-family: verdana;
+  font-weight: bold;
+  margin-top: 2rem 0.5rem 0 0;
+  padding: 1rem 0 1rem 0;
+  flex: 0 1 150px;
+  border-style: double none double none; 
+  border-color: #404040;
+
+
+}
+.form-area {
+margin-bottom: 2rem;
+
+  }
+
+.input-area {
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.submit-button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-family: verdana;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+
+
+/* contact list */
+/* .contact-list {
+
+} */
+
+
+
+
+.contact-main {
+  font-family: verdana;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.contact-plus {
+  color: #EAF6F6;
+  font-family: verdana;
+  font-weight: bold;
+  padding: 1rem 0;
+
+}
+
+.fbook:link {
+color: #EAF6F6;
+
+}
+.contact-i {
+  margin-right: 1rem;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: #c05555;
+  border-radius: 0 0 1rem 1rem;
+  padding: 2rem 0;
+}
+
+.footer-p {
+  color: #EAF6F6;
+  font-family: verdana;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+/* media query */
+ @media (max-width: 818px) {
+  .intro-text {
+    margin: 3rem 0 2rem 0;
+    width: 100%;
+  }
+.contact-list {
+  margin-top: 2rem;
+}
+}

@@ -1,0 +1,142 @@
+
+/* General */
+body {
+  background-color: white;
+  max-width: 100%;
+  margin: 0;
+
+}
+@font-face {
+    font-family: Neigfriste;
+    src: url("Neigfriste_400.otf") format("opentype");
+  }
+
+  p {
+    font-weight: 500;
+    color: #404040;
+  }
+
+/* Navbar and intro */
+
+
+.top-container {
+  background-color: #59886b;
+  padding: 2rem 1rem 3rem 1rem;
+  border-radius: 1rem 1rem 0 0;
+
+}
+
+
+  #logo-image {
+    height: 6rem;
+    width: auto;
+    margin: 0 0 0.5rem 0.7rem;
+  }
+
+  .home-link-text {
+    font-family: 'Nerko One', cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+
+  }
+
+.intro-text {
+  text-align: center;
+  line-height: 2rem;
+  padding: 2rem;
+text-shadow: 2px 2px black;
+  width: 75%;
+  margin: auto;
+}
+
+@media (max-width: 818px) {
+  .intro-text {
+    margin-top: 3rem;
+    width: 100%;
+
+
+  }
+  .top-container{
+    width: 100%;
+    padding: 0;
+
+  }
+
+}
+.fancy-font {
+  font-family: Neigfriste;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #EAF6F6;
+
+
+}
+
+.additional-text {
+  font-family: 'Nerko One', cursive;
+  color: #fff8c1;
+  text-shadow: 2px 2px black;
+
+}
+
+/* product section */
+
+ #products {
+   font-family: verdana;
+   font-weight: bolder;
+   text-align: center;
+   line-height: 2rem;
+   padding: 2rem 1rem;
+   margin: 2rem 0;
+ }
+
+/* slideshow */
+
+#slideshow {
+  font-family: 'Nerko One', cursive;
+  text-align: center;
+  background-color: #59886b;
+  color: #fff8c1;
+  padding: 2.5rem;
+  margin: 2rem 0 0 0;
+  text-shadow: 2px 2px black;
+}
+
+.testimonial-image {
+  width: 40rem;
+  height: auto;
+  border-radius: 4rem;
+  padding: 2rem 1rem 2rem 0;
+  max-width: 100%;
+}
+/* Footer */
+#footer {
+background-color: #c05555;
+color: #EAF6F6;
+text-align: center;
+padding: 4rem;
+margin-bottom:  0;
+border-radius: 0 0 1rem 1rem;
+}
+
+.contact-link:link {
+  color: white;
+}
+
+.contact-link:visited {
+  color: white;
+}
+
+.contact-link:hover {
+color: #120078;
+}
+
+.footer-i {
+  padding: 2.5rem 1rem 2rem 1rem;
+  font-size: 1.5rem;
+}
+
+.footer-p {
+color: #EAF6F6;
+padding-bottom: 1.5rem;
+}
